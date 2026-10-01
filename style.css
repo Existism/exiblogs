@@ -35,7 +35,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     padding: 0 20px;
     box-sizing: border-box;
 }
@@ -59,18 +59,22 @@ h1 {
 
 .science-button {
     color: #9bfaab;
+    box-shadow: 0px 0px 10px 0px #9bfaab;
 }
 
 .technology-button {
     color: #a8d9f4;
+    box-shadow: 0px 0px 10px 0px #a8d9f4;
 }
 
 .engineering-button {
     color: #f6ce8d;
+    box-shadow: 0px 0px 10px 0px #f6ce8d;
 }
 
 .math-button {
     color: #e299f4;
+    box-shadow: 0px 0px 10px 0px #e299f4;
 }
 
 .search-bar {
