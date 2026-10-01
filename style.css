@@ -1,8 +1,17 @@
 body {
     text-align: center;
-    background-color: #121212;
     color: white;
     font-family: "Space Grotesk", sans-serif;
+
+     background-color: #05070d;
+
+    background-image:
+        radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1px),
+        radial-gradient(circle, rgba(255,255,255,0.5) 1px, transparent 1px),
+        radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px);
+
+    background-size: 80px 80px, 130px 130px, 200px 200px;
+    background-position: 0 0, 30px 50px, 70px 20px;
 }
 
 h1 {
