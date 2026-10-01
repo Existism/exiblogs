@@ -51,15 +51,25 @@ h1 {
 
     background-color: #808080;
     color: white;
-    border-radius: 999px;
 
-    font-size: 16px;
+   
+    border: none;
+    outline: none;
+  
+
+    font-size: 22px;
     font-weight: 500;
+}
+
+.category-button:active {
+    background-color: rgb(109, 109, 109);
 }
 
 .science-button {
     color: #9bfaab;
     box-shadow: 0px 0px 10px 0px #9bfaab;
+    border-top-left-radius: 999px;
+    border-bottom-left-radius: 999px;
 }
 
 .technology-button {
@@ -75,6 +85,8 @@ h1 {
 .math-button {
     color: #e299f4;
     box-shadow: 0px 0px 10px 0px #e299f4;
+    border-top-right-radius: 999px;
+    border-bottom-right-radius: 999px;
 }
 
 .search-bar {
@@ -97,6 +109,8 @@ h1 {
     font-weight: 500;
 
     box-shadow: 0px 0px 10px 0px #FFFFFF;
+
+    text-align: center;
 
     outline: none;
 }
