@@ -2,4 +2,9 @@ body {
     text-align: center;
     background-color: #121212;
     color: white;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+h1 {
+    font-size: 42px;
 }
