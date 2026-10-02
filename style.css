@@ -152,3 +152,7 @@ p2{
     opacity: .50;
 }
 
+.search-bar:focus::placeholder{
+    color: transparent;
+}
+
