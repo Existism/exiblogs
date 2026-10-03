@@ -6,6 +6,24 @@ body {
      background-color: #05070a;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.home-logo {
+    display: flex;
+    align-items: center;
+}
+
+.home-logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
 h1 {
     font-size: 100px;
     color: #9ca3af;
@@ -138,4 +156,42 @@ h1 {
 
 .search-bar:focus::placeholder{
     color: transparent;
+}
+
+.home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #15191f;
+    border: 2px solid #3a424d;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #3a424d;
+    cursor: pointer;
+
+    color: #9ca3af;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.home-button img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.home-button:hover {
+    background-color: #1e232c;
+}
+
+.home-button:active {
+    background-color: #2a313d;
 }
