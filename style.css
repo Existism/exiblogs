@@ -174,16 +174,10 @@ p2{
     box-shadow: 0 0 10px #3a424d;
     cursor: pointer;
 
-    color: #9ca3af;
+    color: #FFFFFF;
     font-family: "Space Grotesk", sans-serif;
     font-size: 26px;
     font-weight: 700;
-}
-
-.home-button img {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
 }
 
 .home-button:hover {
