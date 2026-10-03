@@ -195,3 +195,41 @@ h1 {
     color: #bac0cb;
 }
 
+.home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #15191f;
+    border: 2px solid #3a424d;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #3a424d;
+    cursor: pointer;
+
+    color: #9ca3af;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.home-button img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.home-button:hover {
+    background-color: #1e232c;
+}
+
+.home-button:active {
+    background-color: #2a313d;
+}
+
