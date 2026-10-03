@@ -139,3 +139,59 @@ h1 {
 .search-bar:focus::placeholder{
     color: transparent;
 }
+
+
+.blog-post{
+    background: #15191f;
+    border-radius: 50px;
+    height: 140px;
+    width: 20%;
+    margin: 20px auto;
+    border: 2px solid #3a424d;
+
+
+    align-items: center;
+
+    box-shadow: 0 0 10px #3a424d;
+
+    gap: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.blog-enter{
+    flex: 1;
+
+  
+    border-radius: 20px;
+
+     position: relative;
+    top: 15%;
+    left: -2%;
+   
+   
+    padding: 10px 25px;
+
+    display: flex;
+   
+    float: right;
+    align-items: center;
+
+    background-color: #15191f;
+    color: #9ca3af;
+    font-family: "Space Grotesk", sans-serif;
+
+   
+    border: none;
+    outline: none;
+  
+
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.blog-enter:hover {
+    background-color: #1e232c;
+    color: #bac0cb;
+}
+
