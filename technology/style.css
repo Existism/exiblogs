@@ -1,0 +1,157 @@
+body {
+    text-align: center;
+    color: #9ca3af;
+    font-family: "Space Grotesk", sans-serif;
+
+     background-color: #05070a;
+}
+
+h1 {
+    font-size: 100px;
+    color: #9ca3af;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-shadow: 0 0 3px #9ca3af;;
+}
+
+p2{
+    font-size: 20px;
+    color: #9ca3af;
+     position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-shadow: 0 0 1px #9ca3af;;
+}
+
+#stars {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    border-radius: 50%;
+}
+
+.top-bar {
+    background: #15191f;
+    border-radius: 999px;
+    height: 70px;
+    width: 90%;
+    margin: 20px auto;
+    border: 2px solid #3a424d;
+
+    box-shadow: 0 0 10px #3a424d;
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.top-bar p{
+    font-size: 30px;
+    color: #3a424d;
+}
+
+.category-button {
+    flex: 1;
+    width: 18%;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #15191f;
+    color: #9ca3af;
+    font-family: "Space Grotesk", sans-serif;
+
+   
+    border: none;
+    outline: none;
+  
+
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.category-button:hover {
+    background-color: #1e232c;
+    color: #bac0cb;
+}
+
+.category-button:active{
+    background-color: #2a313d;
+}
+
+.science-button {
+    border-radius: 5px;
+ 
+   
+}
+
+.technology-button {
+     border-radius: 5px;
+    
+}
+
+.engineering-button {
+
+     border-radius: 5px;
+   
+}
+
+.math-button {
+   border-radius: 200px;
+    border-top-right-radius: 999px;
+    border-bottom-right-radius: 999px;
+}
+
+.search-bar {
+    flex: 1;
+    height: 50px;
+    width: 18%;
+
+    box-sizing: border-box;
+    padding: 0 20px;
+
+    background-color: #1e232c;
+    color: #9ca3af;
+
+    border: none;
+
+    border-radius: 200px;
+
+    border-top-left-radius: 999px;
+    border-bottom-left-radius: 999px;
+
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+
+
+    outline: none;
+}
+
+.search-bar::placeholder {
+    color: #9ca3af;
+    opacity: .50;
+}
+
+.search-bar:focus::placeholder{
+    color: transparent;
+}
