@@ -49,7 +49,7 @@ h1 {
     background: #15191f;
     border-radius: 999px;
     
-    height: 5%;
+    height: 6%;
     width: 80%;
     
     border: 2px solid #3a424d;
@@ -127,11 +127,11 @@ border-radius: 200px;
 
 .home-button {
     position: fixed;
-    top: 5%;
-    left: 5%;
+    top: 3vh;
+    left: 3vh;
     
-    width: 15vmin;
-    height: 15vmin;
+    width: 2vmin;
+    height: 2vmin;
     padding: 0;
 
     display: flex;
