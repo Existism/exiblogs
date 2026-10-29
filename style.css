@@ -48,9 +48,10 @@ h1 {
     left: 10%;
     background: #15191f;
     border-radius: 999px;
-    height: 10%;
+    
+    height: 5%;
     width: 80%;
-    margin: 20px auto;
+    
     border: 2px solid #3a424d;
 
     box-shadow: 0 0 10px #3a424d;
@@ -59,6 +60,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    
     gap: 20px;
     padding: 0 10px;
     box-sizing: border-box;
@@ -72,7 +74,7 @@ h1 {
 .category-button {
     flex: 1;
     width: 25%;
-    height: 45px;
+    height: 90%;
 
     display: flex;
     justify-content: center;
