@@ -1,3 +1,5 @@
+/* Main */
+
 body {
     text-align: center;
     color: #9ca3af;
@@ -17,16 +19,9 @@ h1 {
     text-shadow: 0 0 3px #9ca3af;;
 }
 
-p2{
-    font-size: 20px;
-    color: #9ca3af;
-     position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    text-shadow: 0 0 1px #9ca3af;;
-}
+
+
+/* Stars */
 
 #stars {
     position: fixed;
@@ -42,6 +37,10 @@ p2{
     background: white;
     border-radius: 50%;
 }
+
+
+
+/* Top */
 
 .top-bar {
     background: #15191f;
@@ -121,41 +120,6 @@ border-radius: 200px;
     border-bottom-right-radius: 999px;
 }
 
-.search-bar {
-    flex: 1;
-    height: 50px;
-    width: 18%;
-
-    box-sizing: border-box;
-    padding: 0 20px;
-
-    background-color: #1e232c;
-    color: #9ca3af;
-
-    border: none;
-
-    border-radius: 200px;
-
-    border-top-left-radius: 999px;
-    border-bottom-left-radius: 999px;
-
-    font-family: "Space Grotesk", sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-
-
-    outline: none;
-}
-
-.search-bar::placeholder {
-    color: #9ca3af;
-    opacity: .50;
-}
-
-.search-bar:focus::placeholder{
-    color: transparent;
-}
-
 .home-button {
     position: absolute;
     top: 20px;
@@ -187,6 +151,10 @@ border-radius: 200px;
 .home-button:active {
     background-color: #2a313d;
 }
+
+
+
+/* Search bar */
 
 .main-search {
     position: absolute;
@@ -226,6 +194,9 @@ border-radius: 200px;
 }
 
 
+
+/*  Game Images  */
+
 .image-button {
     margin-top: 520px;
     padding: 0;
@@ -233,12 +204,12 @@ border-radius: 200px;
     border-radius: 20px;
     background: none;
     box-shadow: 0 0 10px #3a424d;
-    overflow: hidden;      /* clips the image to the rounded corners */
+    overflow: hidden;     
     cursor: pointer;
 }
 
 .image-button img {
-    display: block;        /* removes the small gap under images */
+    display: block;     
     width: 220px;
     height: auto;
 }
@@ -249,4 +220,24 @@ border-radius: 200px;
 
 .image-button:active {
     transform: scale(0.97);
+}
+
+
+/* Game */
+
+.game-frame {
+    width: 100%;
+    max-width: 1400px;
+    aspect-ratio: 16 / 9;
+    margin: 40px auto 40px;
+    border: 2px solid #3a424d;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #3a424d;
+    overflow: hidden;
+}
+
+.game-frame iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
