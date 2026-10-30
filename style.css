@@ -169,7 +169,8 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 50%;
+    min-width: 32rem;
+    max-width: 50rem;
     height: 3rem;
     box-sizing: border-box;
     padding: 0 15px;
