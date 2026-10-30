@@ -55,7 +55,8 @@ h1 {
     border-radius: 999px;
 
     height: 3.5rem;
-    width: 80%;
+    max-width: 75rem;
+    width: 50rem;
 
     border: 2px solid #3a424d;
     box-shadow: 0 0 10px #3a424d;
