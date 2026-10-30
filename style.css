@@ -6,6 +6,11 @@ body {
     font-family: "Space Grotesk", sans-serif;
 
      background-color: #05070a;
+
+    margin: 0;
+    position: relative;
+    min-width: 58rem;
+    min-height: max(100vh, 32rem);
 }
 
 h1 {
@@ -43,13 +48,14 @@ h1 {
 /* Top */
 
 .top-bar {
-    position: fixed;
+    position: absolute;
     top: 3%;
     left: 10%;
     background: #15191f;
     border-radius: 999px;
     
     height: 6%;
+    min-height: 3rem;
     width: 80%;
     
     border: 2px solid #3a424d;
@@ -67,7 +73,7 @@ h1 {
 }
 
 .top-bar p{
-    font-size: 30px;
+    font-size: 2rem;
     color: #3a424d;
 }
 
@@ -89,7 +95,7 @@ h1 {
     outline: none;
   
 
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -126,12 +132,15 @@ h1 {
 }
 
 .home-button {
-    position: fixed;
-    top: 3vh;
-    left: 3vh;
-    
-    width: 6vh;
-    height: 6vh;
+    position: absolute;
+    top: 3%;
+    right: calc(90% + 2rem);          
+    left: auto;   
+
+    height: 6%;                        
+    min-height: 3rem;                 
+    width: auto;
+    aspect-ratio: 1 / 1;               
     padding: 0;
 
     display: flex;
@@ -243,12 +252,12 @@ h1 {
 }
 
 .game-frame {
-    width: 96%;
-    max-width: 1380px;
+    width: 100%;
+    max-width: 1400px;
     aspect-ratio: 16 / 9;
     border: 2px solid #3a424d;
     border-radius: 20px;
-    margin: 12vh auto 40px;
+    margin: 12vh auto 40px; 
     box-shadow: 0 0 10px #3a424d;
     overflow: hidden;
 }
@@ -258,3 +267,4 @@ h1 {
     height: 100%;
     border: none;
 }
+
