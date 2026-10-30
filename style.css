@@ -250,7 +250,7 @@ h1 {
 
 .game-frame {
     width: 80%;
-    max-width: 70rem;
+    max-width: 90rem;
     box-sizing: border-box;
     aspect-ratio: 16 / 9;
     border: 2px solid #3a424d;
