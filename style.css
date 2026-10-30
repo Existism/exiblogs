@@ -204,8 +204,6 @@ border-radius: 200px;
 /*  Game Images  */
 
 .image-button {
-    margin-top: 520px;
-    padding: 0;
     border: 2px solid #3a424d;
     border-radius: 20px;
     background: none;
@@ -249,6 +247,7 @@ border-radius: 200px;
     aspect-ratio: 16 / 9;
     border: 2px solid #3a424d;
     border-radius: 20px;
+    margin: 40px auto 40px;
     box-shadow: 0 0 10px #3a424d;
     overflow: hidden;
 }
