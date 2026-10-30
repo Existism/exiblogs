@@ -164,13 +164,13 @@ border-radius: 200px;
 
 .main-search {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     width: 50%;
     max-width: 600px;
-    height: 55px;
+    height: 50vw/5;
     box-sizing: border-box;
     padding: 0 15px;
 
