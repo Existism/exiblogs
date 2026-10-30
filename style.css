@@ -148,6 +148,8 @@ h1 {
     font-family: "Space Grotesk", sans-serif;
     font-size: 30px;
     font-weight: 700;
+
+    line-height: 1;
 }
 
 .home-button:hover {
