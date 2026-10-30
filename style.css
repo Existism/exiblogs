@@ -50,13 +50,14 @@ h1 {
 .top-bar {
     position: absolute;
     top: 1.5rem;
-    left: 10%;
+    left: 50%;
+    transform: translateX(-50%);
     background: #15191f;
     border-radius: 999px;
 
     height: 3.5rem;
-    max-width: 75rem;
-    width: 50rem;
+    width: 80%;
+    max-width: 70rem;
 
     border: 2px solid #3a424d;
     box-shadow: 0 0 10px #3a424d;
@@ -127,7 +128,7 @@ h1 {
 .home-button {
     position: absolute;
     top: 1.5rem;
-    right: calc(90% + 1rem);
+    right: calc(50% + min(40%, 35rem) + 1rem);
     left: auto;
 
     width: 3.5rem;
@@ -170,8 +171,8 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    min-width: 40rem;
-    max-width: 60rem;
+    width: 50%;
+    max-width: 40rem;
     height: 3rem;
     box-sizing: border-box;
     padding: 0 15px;
