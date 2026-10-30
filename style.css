@@ -217,7 +217,7 @@ h1 {
 
 .image-button img {
     display: block;
-    width: 220px;
+    width: 100%;
     height: auto;
 }
 
@@ -235,11 +235,17 @@ h1 {
 .game-holder {
     position: absolute;
     top: 50%;
-    left: 15%;
+    left: 50%;
+    transform: translateX(-50%);
 
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    width: 80%;
+    max-width: 70rem;
+    padding-bottom: 2.5rem;
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(13.75rem, 1fr));
+    gap: 1rem;
 }
 
 .game-frame {
