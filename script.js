@@ -10,3 +10,17 @@ for (let i = 0; i < 150; i++) {
 
     stars.appendChild(star);
 }
+
+const search = document.querySelector(".main-search");
+
+if (search) {
+    search.addEventListener("input", () => {
+        const text = search.value.toLowerCase().trim();
+        const games = document.querySelectorAll(".game-holder .image-button");
+
+        games.forEach(game => {
+            const name = game.querySelector("img").alt.toLowerCase();
+            game.style.display = name.includes(text) ? "" : "none";
+        });
+    });
+}
