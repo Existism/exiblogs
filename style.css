@@ -248,7 +248,7 @@ h1 {
     aspect-ratio: 16 / 9;
     border: 2px solid #3a424d;
     border-radius: 20px;
-    margin: 40px auto 40px;
+    margin: 12vh auto 40px;
     box-shadow: 0 0 10px #3a424d;
     overflow: hidden;
 }
