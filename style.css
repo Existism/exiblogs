@@ -29,7 +29,7 @@ h2 {
     color: #9ca3af;
     position: absolute;
     left: 50%;
-     top: 10%;
+     top: 7%;
     transform: translate(-50%, -50%);
     margin: 10;
     text-shadow: 0 0 3px #9ca3af;
@@ -260,6 +260,8 @@ h2 {
 }
 
 .game-frame {
+    position: absolute;
+    top: 50%;
     width: 100%;
     max-width: 90rem;
     box-sizing: border-box;
