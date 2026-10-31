@@ -25,13 +25,10 @@ h1 {
 }
 
 h2 {
-    font-size: 60px;
+    font-size: clamp(28px, 5vw, 60px);
     color: #9ca3af;
-    position: absolute;
-    left: 50%;
-     top: 7%;
-    transform: translate(-50%, -50%);
-    margin: 30;
+    text-align: center;
+    margin: 6rem 0 0;          /* space above for your home button/top bar */
     text-shadow: 0 0 3px #9ca3af;
 }
 
