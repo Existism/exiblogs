@@ -29,6 +29,7 @@ h2 {
     color: #9ca3af;
     position: absolute;
     left: 50%;
+     top: 10%;
     transform: translate(-50%, -50%);
     margin: 10;
     text-shadow: 0 0 3px #9ca3af;
