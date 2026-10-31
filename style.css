@@ -300,3 +300,14 @@ h1 {
     z-index: 50;
 }
 
+.ad-right {
+    position: fixed;
+    right: 1vw;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12rem;
+    max-height: 80vh;
+    overflow: hidden;
+    z-index: 50;
+}
+
