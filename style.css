@@ -238,7 +238,7 @@ h1 {
     left: 50%;
     transform: translateX(-50%);
 
-    width: 80%;
+    width: 100%;
     max-width: 85rem;
     padding-bottom: 2.5rem;
     box-sizing: border-box;
