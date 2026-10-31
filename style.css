@@ -248,7 +248,7 @@ h2 {
 
     width: 100%;
     max-width: 80rem;
-    padding-bottom: calc(90px + 2.5rem);
+    padding-bottom: 9rem;
     box-sizing: border-box;
 
     display: grid;
