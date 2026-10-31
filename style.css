@@ -260,9 +260,6 @@ h2 {
 }
 
 .game-frame {
-    position: absolute;
-    top: 20%;
-    left: 50%
     width: 100%;
     max-width: 90rem;
     box-sizing: border-box;
