@@ -27,6 +27,8 @@ h1 {
 h2 {
     font-size: 60px;
     color: #9ca3af;
+    position: absolute;
+    left: 50%;
     transform: translate(-50%, -50%);
     margin: 10;
     text-shadow: 0 0 3px #9ca3af;
